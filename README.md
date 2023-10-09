@@ -30,3 +30,5 @@ Uma coletânea de scripts que utilizo (para suporte ao usuário, testes e/ou man
 ## Contribuições
 
 - Se você tem ideias para tornar esses scripts ainda melhores ou deseja adicionar algo novo, fique à vontade! Sua contribuição é bem-vinda e ajuda a tornar este repositório mais útil para todos. Agradecemos por considerar contribuir!
+
+miau
