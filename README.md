@@ -1,6 +1,6 @@
 # Scripts
 
-Uma coletânea de scripts que utilizo (para suporte ao usuário, testes e/ou manutenções em redes).
+Uma coletânea de scripts que para diversas áreas de TI e afins.
 
 ## Conteúdo
 
