@@ -4,16 +4,8 @@ Uma coletânea de scripts que para diversas áreas de TI e afins.
 
 ## Conteúdo
 
-- [Scripts Próprios](#scripts-próprios)
+- [Scripts Próprios](#scripts-próprios) (Ainda não adicionados)
 - [Scripts de Terceiros](#scripts-de-terceiros)
-
-## Scripts Próprios
-
-### Script 1 (A ser adicionado)
-
-- **Autor:** 
-- **Data de Criação:** DD/MM/AAAA
-- **Descrição:** (A ser adicionado)
 
 ## Scripts de Terceiros
 
