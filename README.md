@@ -4,16 +4,28 @@ Uma coletânea de scripts que para diversas áreas de TI e afins.
 
 ## Conteúdo
 
-- [Scripts Próprios](#scripts-próprios) (Ainda não adicionados)
+- [Scripts Próprios](#scripts-próprios)
 - [Scripts de Terceiros](#scripts-de-terceiros)
 
 ## Scripts Próprios
 
-### limparSpooler.bat
+### clearSpooler.bat
 
 - **Autor:*Marcos Silva* 
 - **Data de Criação:** 15/11/2022
 - **Descrição:** Este script é usado para limpar a fila de impressão de um computador com Windows. O script interrompe o serviço de gerenciamento de impressão, exclui todos os arquivos temporários relacionados à impressão e, em seguida, reinicia o serviço para que você possa continuar a imprimir normalmente. Simplifica o processo de limpeza da fila de impressão, tornando-o mais rápido e eficaz. No entanto, é importante usá-lo com cuidado, pois ele apaga todos os trabalhos de impressão pendentes.
+
+### clearChrome.bat
+
+- **Autor:*Marcos Silva* 
+- **Data de Criação:** 08/03/2023
+- **Descrição:** Este script é usado para fechar o Google Chrome e limpar completamente os dados do navegador, incluindo o cache. O script interrompe o Chrome e remove todos os dados do usuário, incluindo histórico e configurações, de maneira mais eficiente. No entanto, é importante lembrar que, ao usar este script, todos os seus dados do Chrome serão excluídos permanentemente, então use com cautela e apenas quando necessário.
+
+### reiniciarInterfaceOpenVPN.bat
+
+- **Autor:*Marcos Silva* 
+- **Data de Criação:** 22/06/2022
+- **Descrição:** Este script serve para desativar e reativar as conexões do programa OpenVPN, sendo "OpenVPN TAP-Windows6" e "OpenVPN Wintun". Tendo um breve atraso de 3 segundos para permitir que o sistema processe as mudanças antes de reativar as conexões.
 
 ## Scripts de Terceiros
 
