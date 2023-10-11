@@ -1,6 +1,6 @@
 # Scripts
 
-Uma coletânea de scripts que para diversas áreas de TI e afins.
+Scripts de suporte ao usuário que utilizo/já utilizei e scripteis úteis para criação de tarefas automatizadas ou outros scripts.
 
 ## Conteúdo
 
@@ -29,6 +29,12 @@ Uma coletânea de scripts que para diversas áreas de TI e afins.
 
 ## Scripts de Terceiros
 
+### delay.bat
+
+- **Autor:*Desconhecido* 
+- **Data de Criação:** Desconhecida
+- **Descrição:** Pode ser útil quando você precisa fazer com que um programa ou script espere por algum tempo antes de executar a próxima ação. Portanto, é útil para adicionar atrasos em tarefas automatizadas ou scripts, permitindo que o computador aguarde antes de prosseguir para a próxima etapa.
+
 ### bloqueioIE.bat
 
 - **Autor:*Desconhecido* 
@@ -40,6 +46,18 @@ Uma coletânea de scripts que para diversas áreas de TI e afins.
 - **Autor:*Desconhecido* 
 - **Data de Criação:** Desconhecida
 - **Descrição:** Este script é um conjunto de comandos que oferece a uma pessoa controle sobre quando seu computador é desligado. Ele apresenta um menu com três opções: desligar imediatamente, programar um desligamento após um tempo específico ou cancelar um desligamento programado. Se você escolher a programação, pode definir o tempo em horas antes do desligamento. É uma maneira simples de gerenciar o desligamento do computador sem a necessidade de usar comandos complexos, tornando-o mais conveniente para quem não está familiarizado com tais operações.
+
+### getJavaVersion.bat
+
+- **Autor:*Desconhecido* 
+- **Data de Criação:** Desconhecida
+- **Descrição:** Esse script permite que você obtenha a versão do Java instalada no sistema e a armazene em uma variável, que pode ser usada em outros scripts ou processos.
+
+### getJavaVersion.bat
+
+- **Autor:*Desconhecido* 
+- **Data de Criação:** Desconhecida
+- **Descrição:** Esse script é feito para habilitar a Área de Trabalho Remota (Remote Desktop) em uma máquina, mas deve ser executado localmente na máquina que deseja configurar.
 
 ## Como Usar
 
