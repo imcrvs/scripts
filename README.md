@@ -1,6 +1,6 @@
 # Scripts
 
-Scripts de suporte ao usuário que utilizo/já utilizei e scriptis úteis para criação de tarefas automatizadas ou outros scripts.
+Scripts de suporte ao usuário que utilizo/já utilizei e scripts úteis para criação de tarefas automatizadas ou outros scripts.
 
 ## Conteúdo
 
