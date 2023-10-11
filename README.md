@@ -9,11 +9,11 @@ Uma coletânea de scripts que para diversas áreas de TI e afins.
 
 ## Scripts de Terceiros
 
-### Script 1 (A ser adicionado)
+### Bloqueio IE.bat
 
-- **Autor:** 
-- **Data de Criação:** DD/MM/AAAA
-- **Descrição:** (A ser adicionado)
+- **Autor:*Desconhecido* 
+- **Data de Criação:** Desconhecida
+- **Descrição:** Este script ajuda a decidir se as configurações do Internet Explorer podem ser mudadas em um computador com Windows. Se estiver configurado para "0", as configurações podem ser alteradas; caso contrário, elas não podem ser modificadas.
 
 ## Como Usar
 
