@@ -53,11 +53,18 @@ Scripts de suporte ao usuário que utilizo/já utilizei e scripteis úteis para 
 - **Data de Criação:** Desconhecida
 - **Descrição:** Esse script permite que você obtenha a versão do Java instalada no sistema e a armazene em uma variável, que pode ser usada em outros scripts ou processos.
 
-### getJavaVersion.bat
+### enableRDP.bat
 
 - **Autor:*Desconhecido* 
 - **Data de Criação:** Desconhecida
 - **Descrição:** Esse script é feito para habilitar a Área de Trabalho Remota (Remote Desktop) em uma máquina, mas deve ser executado localmente na máquina que deseja configurar.
+
+
+### removeAllPrintersAndUnusedDriversAndPorts.bat
+
+- **Autor:*Desconhecido* 
+- **Data de Criação:** Desconhecida
+- **Descrição:** Este script é projetado para remover todas as impressoras instaladas, suas portas e os drivers não utilizados de um sistema Windows.
 
 ## Como Usar
 
