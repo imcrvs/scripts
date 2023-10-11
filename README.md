@@ -66,6 +66,12 @@ Scripts de suporte ao usuário que utilizo/já utilizei e scripteis úteis para 
 - **Data de Criação:** Desconhecida
 - **Descrição:** Este script é projetado para remover todas as impressoras instaladas, suas portas e os drivers não utilizados de um sistema Windows.
 
+### ipscan.sh
+
+- **Autor:*Desconhecido* 
+- **Data de Criação:** Desconhecida
+- **Descrição:** Este script é como uma "ferramenta de busca" para encontrar e listar os aparelhos que estão conectados à sua rede de computadores. Depois, mostra essa lista para você, o que pode ser útil para saber quem ou o que está na sua rede.
+
 ## Como Usar
 
 - Não há nenhum pré-requisito de uso dos scripts (até o presente momento), então sinta-se livre pra utilizar da melhor maneira no seu cenário.
