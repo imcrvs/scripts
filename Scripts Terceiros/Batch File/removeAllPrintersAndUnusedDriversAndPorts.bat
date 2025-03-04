@@ -1,27 +1,18 @@
-:: WARNING!!! This script will remove EVERY installed printer, their ports, and the unused drivers.
-:: Use with caution.
-:: You have been warned.
-:: Source: http://www.reddit.com/r/usefulscripts/comments/1c0698/batch_remove_all_printers_unused_drivers_and/
-
-
 cd %SystemDrive%\Windows\System32
 setLocal EnableDelayedExpansion
 CLS
 
-:: Stop the spooler service
 net stop spooler
 
-:: Determine OS
 If exist "%SystemDrive%\Users\Default\NTUSER.DAT" goto Win7
 If exist "%SystemDrive%\Documents and Settings\All Users\NTUSER.DAT" goto WinXP
  
 :WinXP
 cls
 Echo Removing all printers
-:: Printer deletion
+
 CSCRIPT /nologo %windir%\System32\prnmngr.vbs -x
  
-:: Delete TCP/IP port
 if exist %TEMP%\IPPorts.txt del %TEMP%\IPPorts.txt
 if exist %TEMP%\IPPorts2.txt del %TEMP%\IPPorts2.txt
 if exist %TEMP%\IPPorts3.txt del %TEMP%\IPPorts3.txt
@@ -39,7 +30,6 @@ del %TEMP%\IPPorts.txt
 del %TEMP%\IPPorts2.txt
 del %TEMP%\IPPorts3.txt
  
-:: Delete all un-used printer drivers
 CSCRIPT /nologo %windir%\System32\prndrvr.vbs -x
  
 goto Exit
@@ -47,10 +37,9 @@ goto Exit
 :Win7
 cls
 Echo Removing all printers
-:: Printer deletion
+
 CSCRIPT /nologo %windir%\System32\Printing_Admin_Scripts\en-US\prnmngr.vbs -x
  
-:: Delete TCP/IP port
 if exist %TEMP%\IPPorts.txt del %TEMP%\IPPorts.txt
 if exist %TEMP%\IPPorts2.txt del %TEMP%\IPPorts2.txt
 if exist %TEMP%\IPPorts3.txt del %TEMP%\IPPorts3.txt
@@ -71,7 +60,6 @@ del %TEMP%\IPPorts2.txt
 del %TEMP%\IPPorts3.txt
 del %TEMP%\IPPorts4.txt
  
-:: Delete all used printer drivers
 CSCRIPT /nologo %windir%\System32\Printing_Admin_Scripts\en-US\prndrvr.vbs -x
  
 goto Exit
